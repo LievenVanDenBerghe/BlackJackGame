@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="BlackJackGame.Modules.Domain.Card">
+    <Position X="2" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Modules\Domein\Card.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BlackJackGame.Modules.Domein.BlackJackCard">
+    <Position X="1.75" Y="3" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAABAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Modules\Domein\BlackJackCard.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BlackJackGame.Modules.Domein.Hand">
+    <Position X="5.5" Y="4" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AJBAIAAAAAAAAAAAAAAAAABAAAAAAIAAAAAgAAAAAAA=</HashCode>
+      <FileName>Modules\Domein\Hand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BlackJackGame.Modules.Domein.BlackJack">
+    <Position X="10.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAADAAAAAAAAAAAAAAQAABAAAABCAAAggIAICAIAA=</HashCode>
+      <FileName>Modules\Domein\BlackJack.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_deck" />
+      <Property Name="PlayerHand" />
+      <Property Name="DealerHand" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="BlackJackGame.Modules.Domein.Deck">
+    <Position X="7.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAABAAAAAAAAAAAAAAAAAEAE=</HashCode>
+      <FileName>Modules\Domein\Deck.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="BlackJackGame.Models.GameState">
+    <Position X="12.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAQAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Modules\Domein\GameState.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="BlackJackGame.Models.FaceValue">
+    <Position X="12.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAggAAAEAAEAIAAAAAFBAAAAAgAAAgAAEE=</HashCode>
+      <FileName>Modules\Domein\CardEnums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="BlackJackGame.Models.Suit">
+    <Position X="12.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAEAAAAAAAAABAAAAAAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>Modules\Domein\CardEnums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
